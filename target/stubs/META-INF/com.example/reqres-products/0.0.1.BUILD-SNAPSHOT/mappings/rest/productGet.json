@@ -1,0 +1,21 @@
+{
+  "id" : "7d3f14d9-4e08-473e-95fa-c420d25b0663",
+  "request" : {
+    "url" : "/product/1",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"price\":10000,\"imageUrl\":\"testUrl\",\"name\":\"TV\",\"id\":1,\"stock\":10}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "7d3f14d9-4e08-473e-95fa-c420d25b0663"
+}
